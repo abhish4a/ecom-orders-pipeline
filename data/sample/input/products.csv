@@ -1,0 +1,21 @@
+product_id,product_name,category,list_price
+P00000,Product 0,books,46.16
+P00001,Product 1,electronics,218.53
+P00002,Product 2,electronics,338.94
+P00003,Product 3,books,184.49
+P00004,Product 4,grocery,320.11
+P00005,Product 5,books,355.38
+P00006,Product 6,books,476.04
+P00007,Product 7,fashion,379.61
+P00008,Product 8,toys,161.24
+P00009,Product 9,sports,311.95
+P00010,Product 10,sports,268.76
+P00011,Product 11,books,63.80
+P00012,Product 12,electronics,433.86
+P00013,Product 13,toys,234.18
+P00014,Product 14,toys,271.40
+P00015,Product 15,toys,479.79
+P00016,Product 16,electronics,443.28
+P00017,Product 17,grocery,425.47
+P00018,Product 18,electronics,41.71
+P00019,Product 19,toys,479.23

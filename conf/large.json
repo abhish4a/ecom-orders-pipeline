@@ -1,0 +1,8 @@
+{
+  "input_dir": "data/generated/rows_1000000/input",
+  "output_dir": "data/output/large/orders",
+  "quarantine_dir": "data/output/large/quarantine",
+  "metrics_dir": "data/output/large/run_metrics",
+  "mode": "optimized",
+  "shuffle_partitions": 8
+}

@@ -1,0 +1,4 @@
+# Runtime
+pyspark==3.5.3
+# Tests
+pytest==8.3.3

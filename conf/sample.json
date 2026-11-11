@@ -1,0 +1,8 @@
+{
+  "input_dir": "data/sample/input",
+  "output_dir": "data/output/sample/orders",
+  "quarantine_dir": "data/output/sample/quarantine",
+  "metrics_dir": "data/output/sample/run_metrics",
+  "mode": "optimized",
+  "shuffle_partitions": 4
+}

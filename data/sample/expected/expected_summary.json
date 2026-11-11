@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "rows_requested": 150,
+  "input_rows": 150,
+  "files": {
+    "orders_batch_001.csv": 70,
+    "orders_batch_002.csv": 75,
+    "orders_batch_003_schema_v2.csv": 5
+  },
+  "expected_rejected": 21,
+  "expected_deduped": 6,
+  "expected_output_rows": 123,
+  "reject_reason_counts": {
+    "INVALID_STATUS": 1,
+    "INVALID_TIMESTAMP:order_ts": 2,
+    "INVALID_TYPE:order_amount": 1,
+    "INVALID_TYPE:quantity": 1,
+    "MISSING_REQUIRED:customer_id": 1,
+    "MISSING_REQUIRED:event_ts": 1,
+    "MISSING_REQUIRED:order_id": 1,
+    "MISSING_REQUIRED:order_ts": 1,
+    "NEGATIVE_AMOUNT": 1,
+    "ORDER_BEFORE_SIGNUP": 1,
+    "OUT_OF_RANGE:quantity": 2,
+    "POSITIVE_REFUND": 1,
+    "SCHEMA_MISMATCH": 5,
+    "UNKNOWN_CUSTOMER": 1,
+    "UNKNOWN_PRODUCT": 1
+  },
+  "dedup_reason_counts": {
+    "EXACT_DUPLICATE": 2,
+    "SUPERSEDED_BY_NEWER_EVENT": 4
+  },
+  "customers": 52,
+  "products": 20
+}
